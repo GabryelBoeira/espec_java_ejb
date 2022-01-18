@@ -1,2 +1,1 @@
-# espec_java_ejb
-Enterprise Java Bean
+# Disciplina de Enterprise Java Bean, Especialização em Tecnologia Java 
