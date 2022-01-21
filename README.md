@@ -9,7 +9,7 @@
    ```
 
    ### Forma de Acessar o serviço do Docker:
-      - No navegador para acessar o [Kasm VNC](https://localhost:6901/)
+      - No navegador para acessar o Kasm VNC: https://localhost:6901
       - Login: kasm_user; Senha: password
 
 ## Resumo
