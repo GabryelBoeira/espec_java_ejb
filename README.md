@@ -1,5 +1,10 @@
 <h1 align="center"> Disciplina de Enterprise Java Bean - Especialização em Tecnologia Java UTFPR </h1>
 
+ ## Configuração do ambiente de desenvolvimento:
+      - OpenJDK 11
+      - Intellij IDE / Netbeans 12.5
+      - Payara 5
+      - Glassfish 6
 
 ## Configuração da imagem Docker 
    ### Executar no linux:
@@ -10,6 +15,7 @@
 
    ### Forma de Acessar o serviço do Docker:
       - No navegador para acessar o Kasm VNC: https://localhost:6901
-      - Login: kasm_user; Senha: password
+      - Login: kasm_user
+      - Senha: password 
 
 ## Resumo
