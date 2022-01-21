@@ -1,12 +1,14 @@
 <h1 align="center"> Disciplina de Enterprise Java Bean - Especialização em Tecnologia Java UTFPR </h1>
 
- ## Configuração do ambiente de desenvolvimento:
+
+
+## Configuração da imagem Docker 
+   ### Configuração intaladas do ambiente de desenvolvimento:
       - OpenJDK 11
       - Intellij IDE / Netbeans 12.5
       - Payara 5
       - Glassfish 6
-
-## Configuração da imagem Docker 
+      
    ### Executar no linux:
 
    ```shell
