@@ -1,6 +1,6 @@
 <h1 align="center"> Disciplina de Enterprise Java Bean - Especialização em Tecnologia Java UTFPR </h1>
 
-
+- Versão utilizada do [Jakarta EE 8](https://jakarta.ee/compatibility/#tab-8)
 
 ## Configuração da imagem Docker 
    ### Configuração intaladas do ambiente de desenvolvimento:
@@ -19,5 +19,6 @@
       - No navegador para acessar o Kasm VNC: https://localhost:6901
       - Login: kasm_user
       - Senha: password 
+
 
 ## Resumo
