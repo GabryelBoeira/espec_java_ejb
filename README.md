@@ -22,3 +22,6 @@
 
 
 ## Resumo
+
+- [Aula 4]() : importação das configurações do projeto utilizando maven com JSF e EJB e PAYARA.
+
