@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Somar Numeros</title>
+    </h:head>
+    <h:body>
+        <h1>Somar Valores</h1>
+        <h:form>            
+            <div style="margin-bottom: 5px; margin-top: 5px">                           
+                <h:outputLabel value="Primeiro valor: " />
+                <h:inputText value="#{somarNumeroJsf.valorA}" />      
+            </div>
+            <div style="margin-bottom: 5px; margin-top: 5px">
+                <h:outputLabel value="Segundo valor: " />
+                <h:inputText value="#{somarNumeroJsf.valorB}" />
+            </div>  
+            <h:commandButton action="#{somarNumeroJsf.somarNumeros()}" value="somar " />            
+        </h:form>
+        <div>
+            <h:outputLabel value="Resultado :  "/>
+            <h:outputLabel value="#{somarNumeroJsf.resultado}"/>
+        </div>  
+    </h:body>
+</html>
+
