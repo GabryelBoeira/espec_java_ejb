@@ -1,27 +1,19 @@
-<h1 align="center"> Disciplina de Enterprise Java Bean - Especialização em Tecnologia Java UTFPR </h1>
+<h1 align="center"> Disciplina de EJB - Especialização em Tecnologia Java UTFPR </h1>
 
-- Versão utilizada do [Jakarta EE 8](https://jakarta.ee/compatibility/#tab-8)
+## Configuração utilizadas:
 
-## Configuração da imagem Docker 
-   ### Configuração intaladas do ambiente de desenvolvimento:
-      - OpenJDK 11
-      - Intellij IDE / Netbeans 12.5
-      - Payara 5
-      - Glassfish 6
-      
-   ### Executar no linux:
+   - Versão utilizada do [Jakarta EE 8](https://jakarta.ee/compatibility/#tab-8)
+   - OpenJDK 11
+   - Netbeans 12.5
+   - Payara 5
+   - Glassfish 6
 
-   ```shell
-      $ sudo docker run --rm -it --shm-size=1024m -p 6901:6901  -e VNC_PW=password alerario/devee9:1.1
-   ```
+## Resumo do conteúdo:
 
-   ### Forma de Acessar o serviço do Docker:
-      - No navegador para acessar o Kasm VNC: https://localhost:6901
-      - Login: kasm_user
-      - Senha: password 
+- [Aula 4](https://github.com/GabryelBoeira/espec_java_ejb/tree/main/Aula4Prativa1) : importação das configurações do projeto utilizando maven com JSF e EJB e PAYARA.
 
+- [Aula 5](https://github.com/GabryelBoeira/espec_java_ejb/tree/main/Aula4Pratica2) : importação das configurações do projeto utilizando maven com JSF e EJB e PAYARA, utilizando EJB Local para comunicação no projeto.
 
-## Resumo
+- [Aula 6](https://github.com/GabryelBoeira/espec_java_ejb/tree/main/Aula4Pratica3) : Utilizando EJB Remote, com a criação de uma LIB para utilizacao em diversos projetos, utilizado o web e um projeto JAVA GUI com Java RMI para realizar a atividade de Operações.   
 
-- [Aula 4]() : importação das configurações do projeto utilizando maven com JSF e EJB e PAYARA.
-
+- [Aula 7]() : Utilizando EJB Remote, com a criação de uma LIB para utilizacao em diversos projetos, utilizado o web e um projeto JAVA GUI com Java RMI para realizar statefull e 1 stateless.

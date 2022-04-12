@@ -1,0 +1,5 @@
+com/br/espec/utfpr/somarnumeros/ejb/SomarNumeroEjb.class
+com/br/espec/utfpr/somarnumeros/JakartaRestConfiguration.class
+com/br/espec/utfpr/somarnumeros/jsf/SomarNumeroJsf.class
+com/br/espec/utfpr/somarnumeros/resources/JakartaEE8Resource.class
+com/br/espec/utfpr/somarnumeros/ejb/SomarNumeroEjbLocal.class
