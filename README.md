@@ -28,7 +28,7 @@
    Utilizando EJB Remote, com a criação de uma LIB para utilizacao em diversos projetos, utilizado o web e um projeto JAVA GUI com Java RMI para realizar stateful e 1 stateless.
    -  [TerefaEjb](https://github.com/GabryelBoeira/espec_java_ejb/tree/main/Aula4Pratica4/TarefaEjb) :
       Projeto avaliativo utilizando stateful e stateless para armazenar lista de usuarios e selecionar um usuario na sessão.
--  [Aula Prática 5]() : 
+-  [Aula Prática 5](https://github.com/GabryelBoeira/espec_java_ejb/tree/main/Aula5Pratica1/Aula5Pratica1) : 
    Utilizando Message Driven Beans do EJB para envio e gerenciameto de mensagens
-   -  [TarefaMD]() :
+   -  [TarefaMD](https://github.com/GabryelBoeira/espec_java_ejb/tree/main/Aula5Pratica1/tarefaMD) :
       utilizando um projeto de somar número enviar uma lista de ranking para o log do servidor.
