@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <title>Aula Pratica4 </title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <div>
+                <h4>Produtos</h4>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Descricao</th>
+                                <th>acao</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <c:forEach items="${jsfProduto.allProdutos}" var="produto">
+                                <tr>
+                                    <td>${produto.codigo}</td>
+                                    <td>${produto.descricao}</td>
+                                    <td><h:commandButton value="Adicionar" action="${jsfCompra.add(produto)}" /> </td>
+                                </tr>
+                            </c:forEach>
+                        </tbody>
+                    </table>      
+                </div>           
+            </div>        
+        </h:form>
+
+        <h:form>
+            <div>
+                <h4>Items adicionados</h4>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Descricao</th>
+                                <th>Quantidade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <c:forEach items="${jsfCompra.all}" var="item" >
+                                <tr>
+                                    <td>${item.produto.codigo}</td>
+                                    <td>${item.produto.descricao}</td>
+                                    <td>${item.qtde}</td>
+                                </tr>
+                            </c:forEach>
+                        </tbody>
+                    </table>      
+                </div>           
+            </div>
+        </h:form>
+    </h:body>
+</html>

@@ -1,6 +1,6 @@
 <h1 align="center"> Disciplina de EJB - Especialização em Tecnologia Java UTFPR </h1>
 
-## Configuração utilizadas:
+## Configurações utilizadas:
 
    - Versão utilizada do [Jakarta EE 8](https://jakarta.ee/compatibility/#tab-8)
    - OpenJDK 11
