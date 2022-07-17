@@ -32,3 +32,5 @@
    Utilizando Message Driven Beans do EJB para envio e gerenciameto de mensagens
    -  [TarefaMD](https://github.com/GabryelBoeira/espec_java_ejb/tree/main/Aula5Pratica1/tarefaMD) :
       utilizando um projeto de somar número enviar uma lista de ranking para o log do servidor.
+      
+\*\* Esta é uma Disciplina Concluida \*\*
